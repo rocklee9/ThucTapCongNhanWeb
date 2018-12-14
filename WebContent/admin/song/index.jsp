@@ -142,7 +142,7 @@
 											<th>Lượt đọc</th>
 											<th>Hình ảnh</th>
 											<th>Trạng thái</th>
-											<th width="160px">Chức năng</th>
+											<th width="180px">Chức năng</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -193,11 +193,11 @@
 											<%
 												}
 											%>
-											<td class="text-center"><a href="<%=urlEdit%>" title=""
-												class="btn btn-primary"><i class="fa fa-edit "></i> Sửa</a>
-												<a href="<%=urlDel%>"
+											<td class="text-center"><span><a href="<%=urlEdit%>" title=""
+												class="btn btn-primary"><i class="fa fa-edit "></i> Sửa</a></span>
+												<span><a href="<%=urlDel%>"
 												onclick="return confirm('Bạn có muốn xóa không?')" title=""
-												class="btn btn-danger"><i class="fa fa-pencil"></i> Xóa</a>
+												class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xóa</a></span>
 											</td>
 										</tr>
 										<%
@@ -298,8 +298,7 @@
 	        	var id = $(this).attr('id');
 	        	
 	            $.ajax({
-					url: '<%=request.getContextPath()%>
-	/xu-ly-active-song',
+					url: '<%=request.getContextPath()%>/xu-ly-active-song',
 				type : 'POST',
 				cache : false,
 				data : {

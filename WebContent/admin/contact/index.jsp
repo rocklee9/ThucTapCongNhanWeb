@@ -89,7 +89,7 @@
 											<td class="center"><a
 												onclick="return confirm('Bạn có chắc chắn muốn xóa không?')"
 												href="<%=request.getContextPath()%>/admin/contact/del?id=<%=item.getId()%>"
-												title="" class="btn btn-danger"><i class="fa fa-pencil"></i>
+												title="" class="btn btn-danger"><i class="fas fa-trash-alt"></i>
 													Xóa</a></td>
 										</tr>
 										<%

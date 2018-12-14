@@ -69,7 +69,7 @@
 											<th>ID</th>
 											<th>Username</th>
 											<th>Fullname</th>
-											<th width="160px">Chức năng</th>
+											<th width="180px">Chức năng</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -94,7 +94,7 @@
 											<td class="center"><a href="<%=urlEdit%>" title=""
 												class="btn btn-primary"><i class="fa fa-edit "></i> Sửa</a>
 												<a href="<%=urlDel%>" onclick="return myConfirm()" title=""
-												class="btn btn-danger"><i class="fa fa-pencil"></i> Xóa</a>
+												class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xóa</a>
 											</td>
 											<%
 												} else {

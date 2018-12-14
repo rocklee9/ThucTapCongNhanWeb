@@ -30,6 +30,10 @@
 	src="<%=request.getContextPath()%>/templates/admin/assets/vendor/charts/c3charts/C3chartjs.js"></script>
 <script
 	src="<%=request.getContextPath()%>/templates/admin/assets/libs/js/dashboard-ecommerce.js"></script>
+	<!-- CUSTOM SCRIPTS -->
+<script src="<%=request.getContextPath() %>/templates/admin/assets/js/custom.js"></script>
+<script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery.metisMenu.js"></script>
+<script src="<%=request.getContextPath() %>/templates/admin/assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>

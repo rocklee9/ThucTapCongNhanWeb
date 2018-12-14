@@ -72,7 +72,7 @@
 											<th>Link</th>
 											<th>Trạng thái</th>
 											<th>Vị trí</th>
-											<th width="160px">Chức năng</th>
+											<th width="0px">Chức năng</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -121,12 +121,12 @@
 											<%
 												}
 											%>
-											<td class="center"><%=objSlide.getLocation()%></td>
+											<td class="center" ><%=objSlide.getLocation()%></td>
 											<td class="text-center"><a href="<%=urlEdit%>" title=""
 												class="btn btn-primary"><i class="fa fa-edit "></i> Sửa</a>
 												<a href="<%=urlDel%>"
 												onclick="return confirm('Bạn có muốn xóa không?')" title=""
-												class="btn btn-danger"><i class="fa fa-pencil"></i> Xóa</a>
+												class="btn btn-danger"><i class="fas fa-trash-alt"></i> Xóa</a>
 											</td>
 										</tr>
 										<%
