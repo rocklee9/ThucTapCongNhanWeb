@@ -18,7 +18,7 @@
 <link rel="stylesheet"
 	href="<%=request.getContextPath() %>/templates/admin/assets/libs/css/style.css">
 <link rel="stylesheet"
-	href="<%=request.getContextPath() %>/templates/admin/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+	href="<%=request.getContextPath() %>/templates/admin/assets/vendor/fonts/fontawesome/css/fontawesome-all.css"> 
 <link rel="stylesheet"
 	href="<%=request.getContextPath() %>/templates/admin/assets/vendor/charts/chartist-bundle/chartist.css">
 <link rel="stylesheet"

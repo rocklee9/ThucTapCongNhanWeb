@@ -120,7 +120,7 @@
 												class="btn btn-primary"><i class="fa fa-edit "></i> Sửa</a>
 												<a href="<%=urlDel%>"
 												onclick="return confirm('Bạn có muốn xóa không?')" title=""
-												class="btn btn-danger"><i class="fa fa-pencil"></i> Xóa</a>
+												class="btn  btn-danger"><i class=" fas fa-trash-alt"></i> Xóa</a>
 											</td>
 										</tr>
 										<%
