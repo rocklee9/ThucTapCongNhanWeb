@@ -51,18 +51,16 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="collapse navbar-collapse " style="margin-right:20px;border-radius:5px;" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
                         <% if (session.getAttribute("userInfo") != null) {
             		          User objUser = (User) session.getAttribute("userInfo");
                           %>
-                        <li class="nav-item ">
-                              Xin chào, <b><%=objUser.getFullname() %></b> &nbsp; <a href="<%=request.getContextPath() %>/auth/logout" class="btn btn-danger square-btn-adjust">Đăng xuất</a> 
+                        <li class="nav-item " style="border-radius:5px;">
+                              Xin chào, <b><%=objUser.getFullname() %></b> &nbsp; <a href="<%=request.getContextPath() %>/auth/logout" class="btn btn-danger square-btn-adjust" style="border-radius:5px;">Đăng xuất</a> 
                         </li>
                         <% } %>
-                        <li class="nav-item ">
-                            
-                        </li>
+                        
                     </ul>
                 </div>
             </nav>

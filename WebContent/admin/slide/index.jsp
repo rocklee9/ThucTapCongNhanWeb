@@ -72,7 +72,7 @@
 											<th>Link</th>
 											<th>Trạng thái</th>
 											<th>Vị trí</th>
-											<th width="0px">Chức năng</th>
+											<th style="min-width:180px;" >Chức năng</th>
 										</tr>
 									</thead>
 									<tbody>

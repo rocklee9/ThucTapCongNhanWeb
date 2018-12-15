@@ -1,6 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
 
+<div class="footer" style="margin-bottom:0px">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+					Nguyễn Minh Hoàng - Phan Bá Duy - Đặng Bá Hùng - 15T1 
+				</div>
+				
+			</div>
+		</div>
+	</div>
 
 </div>
 
@@ -33,7 +43,7 @@
 	<!-- CUSTOM SCRIPTS -->
 <script src="<%=request.getContextPath() %>/templates/admin/assets/js/custom.js"></script>
 <script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery.metisMenu.js"></script>
-<script src="<%=request.getContextPath() %>/templates/admin/assets/js/bootstrap.min.js"></script>
+<%-- <script src="<%=request.getContextPath() %>/templates/admin/assets/js/bootstrap.min.js"></script> --%>
 </body>
 
 </html>

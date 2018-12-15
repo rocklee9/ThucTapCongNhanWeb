@@ -1000,6 +1000,7 @@ Borders
 
 .text-muted {
     color: #7171a6 !important;
+    font-family: 'Playfair Display', serif;
 }
 
 .rating-color {
@@ -1844,6 +1845,11 @@ Leftsidebar - dark
     color: #fff;
     border-radius: 2px;
 }
+.active-menu {
+    background-color: #242849;
+    color: #fff;
+    border-radius: 2px;
+}
 
 .sidebar-dark.nav-left-sidebar .submenu .nav .nav-item .nav-link:hover {
     color: #fff;
@@ -2064,6 +2070,9 @@ Pageheader
 -------------------------*/
 
 .footer {
+	position: relative;
+    left: 0;
+    margin-left: 264px;
     border-top: 1px solid rgba(152, 166, 173, .2);
     padding: 14px 30px 14px;
     color: #71748d;
@@ -6974,6 +6983,8 @@ Media Query
     .tab-regular .nav.nav-pills .nav-item {
         margin-bottom: 5px;
     }
+    
+    
   /*--------- dashboard-product-single -------- */
 .product-slider{padding: 30px 10px;}
 .product-carousel .carousel-indicators{bottom: -30px;}
