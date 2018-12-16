@@ -156,7 +156,7 @@
    ========================================================================== */
 
 body {
-    font-family: 'Circular Std Book';
+    font-family: 'Encode Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -261,6 +261,7 @@ label {
     background-image: none;
     border: 1px solid #d2d2e4;
     border-radius: 2px;
+    font-family: 'Playfair Display', serif;
 }
 
 .form-control:focus {
@@ -999,6 +1000,7 @@ Borders
 
 .text-muted {
     color: #7171a6 !important;
+    font-family: 'Playfair Display', serif;
 }
 
 .rating-color {
@@ -1242,6 +1244,7 @@ Top Header
     text-transform: uppercase;
     font-weight: 700;
     color: #007bff;
+    font-family: 'Playfair Display', serif;
 }
 .navbar-brand:hover{
     color: #007bff;
@@ -1261,6 +1264,7 @@ Top Header
     font-size: 16px;
     line-height: 2;
     color: #82849f;
+    
 }
 
 
@@ -1695,6 +1699,7 @@ Left Navigation Sidebar
     /* margin-bottom: 2px; */
     color: #71789e;
     transition: 0.3s;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-left-sidebar .nav-link i {
@@ -1840,6 +1845,11 @@ Leftsidebar - dark
     color: #fff;
     border-radius: 2px;
 }
+.active-menu {
+    background-color: #242849;
+    color: #fff;
+    border-radius: 2px;
+}
 
 .sidebar-dark.nav-left-sidebar .submenu .nav .nav-item .nav-link:hover {
     color: #fff;
@@ -1944,7 +1954,7 @@ Container / Wrapper
     position: relative;
     left: 0;
     margin-left: 264px;
-    min-height: 870px !important;
+    min-height: 570px !important;
 }
 
 .dashboard-content {
@@ -2041,6 +2051,7 @@ Pageheader
 }
 
 .pageheader-title {
+	font-family: 'Playfair Display', serif;
     font-size: 24px;
     margin-bottom: 8px;
 }
@@ -2059,6 +2070,9 @@ Pageheader
 -------------------------*/
 
 .footer {
+	position: relative;
+    left: 0;
+    margin-left: 264px;
     border-top: 1px solid rgba(152, 166, 173, .2);
     padding: 14px 30px 14px;
     color: #71748d;
@@ -3113,8 +3127,9 @@ clip-path: polygon(10% 25%, 10% 0, 35% 0%, 65% 0%, 90% 0, 90% 25%, 90% 50%, 91% 
 }
 
 .btn-sm {
-    padding: 5px 12px;
+    padding: 7px 12px;
     font-size: 14px;
+    font-family: 'Playfair Display', serif;
 }
 
 .btn-lg {
@@ -4513,16 +4528,19 @@ Pills vertical
 .table thead th,
 .table th {
     color: #3d405c;
-    font-family: 'Circular Std Medium';
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
 }
 
 .table-bordered {
     border: 1px solid #e6e6f2;
+    
 }
 
 .table-bordered td,
 .table-bordered th {
     border: 1px solid #e6e6f2;
+    font-family: 'Merriweather', serif;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -6965,6 +6983,8 @@ Media Query
     .tab-regular .nav.nav-pills .nav-item {
         margin-bottom: 5px;
     }
+    
+    
   /*--------- dashboard-product-single -------- */
 .product-slider{padding: 30px 10px;}
 .product-carousel .carousel-indicators{bottom: -30px;}

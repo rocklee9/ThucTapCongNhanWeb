@@ -38,100 +38,111 @@
 				<div class="row">
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
 						<div class="card">
-							<span class="icon-box bg-color-green set-icon"> <i
-								class="fa fa-bars"></i>
-							</span>
-							<div class="text-box">
-								<p class="main-text">
-									<a href="<%=request.getContextPath()%>/admin/cat/index"
-										title="">Quản lý danh mục</a>
-								</p>
-								<p class="text-muted">
-									Có
-									<%=countCat%>
-									danh mục
-								</p>
+							<div class="card-body">
+								<div class="d-inline-block">
+									<h3 class="text-muted">
+										<a href="<%=request.getContextPath()%>/admin/cat/index"
+											title=""><b>Quản lý danh mục</b></a>
+									</h3>
+									<h5 class="mb-0 text-success ">
+										Có
+										<%=countCat%>
+										danh mục
+									</h5>
+								</div>
+								<div
+									class="float-right icon-circle-medium  icon-box-lg  bg-success-light mt-1">
+									<i class="fa fa-folder-open fa-fw fa-sm text-success "></i>
+								</div>
 							</div>
+
+
+
 						</div>
 					</div>
 
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
 						<div class="card">
-							<span class="icon-box bg-color-blue set-icon"> <i
-								class="fa fa-bell-o"></i>
-							</span>
-							<div class="text-box">
-								<p class="main-text">
-									<a href="<%=request.getContextPath()%>/admin/song/index"
-										title="">Quản lý bài hát</a>
-								</p>
-								<p class="text-muted">
-									Có
-									<%=countSong%>
-									bài hát
-								</p>
+							<div class="card-body">
+								<div class="d-inline-block">
+									<h3 class="text-muted">
+										<a href="<%=request.getContextPath()%>/admin/song/index"
+											title=""><b>Quản lý bài hát</b></a>
+									</h3>
+									<h5 class="mb-0 text-primary ">
+										Có
+										<%=countSong%>
+										bài hát
+									</h5>
+								</div>
+								<div
+									class="float-right icon-circle-medium  icon-box-lg  bg-primary-light mt-1">
+									<i class="fa fa-music fa-fw fa-sm text-primary"></i>
+								</div>
 							</div>
+
 						</div>
 					</div>
 
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
 						<div class="card">
-							<span class="icon-box bg-color-brown set-icon"> <i
-								class="fa fa-rocket"></i>
-							</span>
-							<div class="text-box">
-								<p class="main-text">
-									<a href="<%=request.getContextPath()%>/admin/user/index"
-										title="">Quản lý người dùng</a>
-								</p>
-								<p class="text-muted">
-									Có
-									<%=countUser%>
-									người dùng
-								</p>
+							<div class="card-body">
+								<div class="d-inline-block">
+									<h3 class="text-muted">
+										<a href="<%=request.getContextPath()%>/admin/user/index"
+											title=""><b>Quản lý người dùng</b></a>
+									</h3>
+									<h5 class="mb-0 text-info">
+										Có
+										<%=countUser%>
+										người dùng
+									</h5>
+								</div>
+								<div
+									class="float-right icon-circle-medium  icon-box-lg  bg-info-light mt-1">
+									<i class="fa fas fa-user fa-fw fa-sm text-info"></i>
+								</div>
 							</div>
 						</div>
 					</div>
 
 				</div>
 				<div class="row">
-					
+
 
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
 						<div class="card">
-							<span class="icon-box bg-color-brown set-icon"> <i
-								class="fa fa-rocket"></i>
-							</span>
-							<div class="text-box">
-								<p class="main-text">
-									<a href="<%=request.getContextPath()%>/admin/contacts" title="">Quản
-										lý liên hệ</a>
-								</p>
-								<p class="text-muted">
-									Có
-									<%=countContact%>
-									liên hệ
-								</p>
-							</div>
+						<div class="card-body">
+	                                    <div class="d-inline-block">
+	                                        <h3 class="text-muted"><a href="<%=request.getContextPath()%>/admin/contacts" title=""><b>Quản
+											lý liên hệ</b></a></h3>
+	                                        <h5 class="mb-0 text-secondary "> Có
+										<%=countContact%> liên hệ</h5>
+	                                    </div>
+	                                    <div class="float-right icon-circle-medium  icon-box-lg  bg-secondary-light mt-1">
+	                                        <i class="fa fa-envelope fa-fw fa-sm text-secondary"></i>
+	                                    </div>
+	                                </div>
+							
+
 						</div>
 					</div>
 
 					<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
 						<div class="card">
-							<span class="icon-box bg-color-green set-icon"> <i
-								class="fa fa-bars"></i>
-							</span>
-							<div class="text-box">
-								<p class="main-text">
-									<a href="<%=request.getContextPath()%>/admin/slide/index"
-										title="">Quản lý slide</a>
-								</p>
-								<p class="text-muted">
-									Có
-									<%=countSlide%>
-									slide
-								</p>
-							</div>
+						<div class="card-body">
+	                                    <div class="d-inline-block">
+	                                        <h3 class="text-muted"><a href="<%=request.getContextPath()%>/admin/slide/index"
+										title=""><b>Quản lý slide</b></a></h3>
+	                                        <h5 class="mb-0 text-brand">Có
+										<%=countSlide%> slide</h5>
+	                                    </div>
+	                                    <div class="float-right icon-circle-medium  icon-box-lg  bg-brand-light mt-1">
+	                                        <i class="fa fa-file-image fa-fw fa-sm text-brand"></i>
+	                                    </div>
+	                                </div>
+							
+
 						</div>
 					</div>
 				</div>
@@ -141,32 +152,16 @@
 
 		</div>
 	</div>
-</div>
 
 
-<div class="footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-				Copyright © 2018 Concept. All rights reserved. Dashboard by <a
-					href="https://colorlib.com/wp/">Colorlib</a>.
-			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-				<div class="text-md-right footer-links d-none d-sm-block">
-					<a href="javascript: void(0);">About</a> <a
-						href="javascript: void(0);">Support</a> <a
-						href="javascript: void(0);">Contact Us</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-<script>
-	document.getElementById("index").classList.add('active-menu');
-</script>
 
-<!-- /. PAGE WRAPPER  -->
+
+	<script>
+		document.getElementById("index").classList.add('active-menu');
+	</script>
+
+	<!-- /. PAGE WRAPPER  -->
 
 </div>
+
 <%@ include file="/templates/admin/inc/footer.jsp"%>
