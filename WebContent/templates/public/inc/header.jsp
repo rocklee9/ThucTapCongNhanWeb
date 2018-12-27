@@ -29,7 +29,7 @@
 	
 </head> 
 <!-- /w3layouts-agile -->
-<body class="sticky-header left-side-collapsed"  onload="initMap()">
+<body class="sticky-header left-side-collapsed">
 	<section>
 		<!-- left side start-->
 		<div class="left-side sticky-left-side">
@@ -87,24 +87,7 @@
                 <!--notification menu start -->
                 <div class="menu-right">
                     <div class="profile_details">		
-                        <div class="col-md-4 serch-part">
-                            <div id="sb-search" class="sb-search">
-                                <form action="#" method="post">
-                                    
-                                    <input class="sb-search-input" placeholder="Search" type="search" name="search" id="search">
-                                    <input class="sb-search-submit" type="submit" value="">
-                                    <span class="sb-icon-search"> </span>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- search-scripts -->
-                        <script src="<%=request.getContextPath()%>/templates/public/js/classie.js"></script>
-                        <script src="<%=request.getContextPath()%>/templates/public/js/uisearch.js"></script>
-                        <script>
-                            new UISearch( document.getElementById( 'sb-search' ) );
-                        </script>
-                        <!-- //search-scripts -->
-                        <!---->
+                       
                         <div class="col-md-4 player">
                             <div class="audio-player">									
                             </div>
