@@ -24,16 +24,8 @@
 	<link rel="stylesheet" href="<%=request.getContextPath()%>/templates/public/css/icon-font.css" type='text/css' />
 	<!-- //lined-icons -->
 	<!-- Meters graphs -->
+	<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
 	<script src="<%=request.getContextPath()%>/templates/public/js/jquery-2.1.4.js"></script>
-	<style>
-	.active_xxx{
-		background: #333 !important;
-		color: #45B39D !important;
-	}
-	.list-group{
-		color: #45B39D !important;
-	}
-</style>
 	
 </head> 
 <!-- /w3layouts-agile -->

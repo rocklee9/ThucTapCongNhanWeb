@@ -101,11 +101,11 @@
 						  		<%
 	      							if(!"".equals(objSong.getPicture())) {
 	     						%>
-									<a href="<%=urlDetail%>"><img src="<%=request.getContextPath()%>/files/<%=objSong.getPicture()%>" alt="<%=objSong.getSongName()%>" width="200px" height="200px"></a>
+									<a href="<%=urlDetail%>"><img src="<%=request.getContextPath()%>/files/<%=objSong.getPicture()%>" alt="<%=objSong.getSongName()%>" width="177" height="177"></a>
 								<%
        	  						} else {
        	  						%>
-       	  							<a href="<%=urlDetail%>"><img src="<%=request.getContextPath()%>/templates/admin/assets/img/no.gif" alt="<%=objSong.getSongName()%>" width="177" height="120"></a>
+       	  							<a href="<%=urlDetail%>"><img src="<%=request.getContextPath()%>/templates/admin/assets/img/no.gif" alt="<%=objSong.getSongName()%>" width="177" height="177"></a>
        	  						<%}%>
 							</div>
 							<!-- Post Content -->
@@ -147,7 +147,7 @@
 		       			for (int i = 1; i <= numberOfPages; i++) {
 		       				if (currentPage == i) {
 		    %>
-		    	<li><a href="<%=request.getContextPath()%>/page-<%=i%>"><%=i%></a></li>
+		    	<li><a class="blog_active" href="<%=request.getContextPath()%>/page-<%=i%>"><%=i%></a></li>
 		    				<%} else {%>
 				<li><a href="<%=request.getContextPath()%>/page-<%=i%>"><%=i%></a></li>
 			<% }} %>
@@ -177,7 +177,7 @@
 	  		  				+ objSong.getId() + ".html";
 		  	%>
 			<li>
-				<a href="<%=urlDetail%>"><img src="<%=request.getContextPath()%>/files/<%=objSong.getPicture()%>" alt=""/></a>
+				<a href="<%=urlDetail%>"><img src="<%=request.getContextPath()%>/files/<%=objSong.getPicture()%>" alt="" width="177" height="177" /></a>
 				<div class="slide-title"><h4><%=objSong.getSongName()%> </div>
 				<div class="date-city">
 					<h5><%=StringUtil.dateFormat(objSong.getDateCreate())%></h5>

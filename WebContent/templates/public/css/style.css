@@ -4,23 +4,38 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+
+.active_xxx {
+	background: #333 !important;
+	color: #45B39D !important;
+}
+
+.active_xxx:hover {
+	background: #ffffff !important;
+	color: #45B39D !important;
+}
+
+.list-group {
+	color: #45B39D !important;
+}
+
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 
 html, body{
-  font-family: 'Lato-Regular';
+    font-family: 'Sarabun', sans-serif;
     font-size: 100%;
   	overflow-x: hidden;
 	background: #f9f9f9;
 }
 @font-face {
-   font-family: 'MavenPro-Regular';
+   font-family: 'Sarabun', sans-serif;
    src: url(../fonts/MavenPro-Regular.ttf)format('truetype');
 }
 @font-face {
-   font-family: 'Lato-Regular';
+   font-family: 'Sarabun', sans-serif;
    src: url(../fonts/Lato-Regular.ttf)format('truetype');
 }
 body a{
@@ -41,10 +56,10 @@ a {
     background-color:none;
 }
 body p{
-   font-family: 'Lato-Regular';
+   font-family: 'Sarabun', sans-serif;
 }
 h1, h2, h3, h4, h5 {
-      font-family: 'MavenPro-Regular';
+      font-family: 'Sarabun', sans-serif;
 }
 /*Header Stats Start*/
 .header_stats{
@@ -147,7 +162,7 @@ div#page-wrapper {
     font-size: 2em;
     color:#9E9E9E;
     margin-top: 9px;
-	   font-family: 'MavenPro-Regular';
+	font-family: 'Sarabun', sans-serif;
 	font-weight:700;
 }
 /*-- w3layouts --*/
@@ -2667,6 +2682,11 @@ h4.widget-title {
     background:#EA57A3;
     color:#fff;
     border: 1px solid #EA57A3;
+}
+.blog_active {
+    background:#EA57A3 !important;
+    color:#fff !important;
+    border: 1px solid #EA57A3 !important;
 }
 /*--contact--*/
 .contact-left{
