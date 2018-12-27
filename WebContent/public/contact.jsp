@@ -58,7 +58,7 @@
     </div>
   </div>
   <div class="sidebar">
-  <%@ include file="/templates/public/inc/leftbar.jsp" %>
+  <%-- <%@ include file="/templates/public/inc/leftbar.jsp" %> --%>
   </div>
   <div class="clr"></div>
 </div>

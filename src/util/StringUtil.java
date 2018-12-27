@@ -3,7 +3,9 @@ package util;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.sql.Timestamp;
 import java.text.Normalizer;
+import java.text.SimpleDateFormat;
 import java.util.regex.Pattern;
 
 public class StringUtil {
@@ -48,5 +50,11 @@ public class StringUtil {
         str = str.replaceAll("\\s+", " ");
         return str;
     }
+	
+	// định dạng ngày tháng năm
+	public static String dateFormat(Timestamp timestamp) {
+		String formattedDate = new SimpleDateFormat("dd/MM/yyyy").format(timestamp);
+		return formattedDate;	
+	}
 
 }

@@ -1,19 +1,22 @@
+<%@page import="util.StringUtil"%>
 <%@page import="model.bean.Comment"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="model.bean.Song"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
 <%@ include file="/templates/public/inc/header.jsp" %>
+<!-- Start phần code project cũ -->
 <div class="content_resize">
   <div class="mainbar">
   	<%
   		if(request.getAttribute("objSong") != null) {
-  	  			Song objSong = (Song)request.getAttribute("objSong");
+  	  		Song objSong = (Song)request.getAttribute("objSong");
   	%>
     <div class="article">
 	    <h1><%=objSong.getSongName()%></h1>
 	    <div class="clr"></div>
-	    <p>Ngày đăng: <%=objSong.getDateCreate()%> Lượt xem: <%=objSong.getCounter()%></p>
+	    <p>Ngày đăng: <%=StringUtil.dateFormat(objSong.getDateCreate())%> &nbsp;&nbsp;&nbsp;Lượt xem: <%=objSong.getCounter()%></p>
+	    <p></p>
 	    <div class="vnecontent">
 	    	<%=objSong.getDetailText()%>
 	    </div>
@@ -80,11 +83,11 @@
 		}
 	%>
 </div>
-<div class="sidebar">
+<%-- <div class="sidebar">
   <%@ include file="/templates/public/inc/leftbar.jsp" %>
   </div>
-  <div class="clr"></div>
-</div>
+  <div class="clr"></div>--%>
+</div> 
 <script>
 	function xuLyCmt(sid){
 		var username = $('#username').val() + '';
@@ -119,4 +122,6 @@
 		return false;
 	}
 </script>
+<!-- End phần code project cũ -->
+
 <%@ include file="/templates/public/inc/footer.jsp" %>

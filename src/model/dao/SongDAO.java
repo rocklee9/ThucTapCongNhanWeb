@@ -177,6 +177,25 @@ public class SongDAO {
 		}
 		return listItem;
 	}
+	
+	public ArrayList<Song> getTopSongs() {
+		ArrayList<Song> listItem = new ArrayList<>();
+		conn = DBConnectionUtil.getConnection();
+		String sql = "SELECT * FROM songs WHERE active = 1 ORDER BY counter DESC LIMIT 10";
+		try {
+			st = conn.createStatement();
+			rs = st.executeQuery(sql);
+			while(rs.next()) {
+				Song objSong = new Song(rs.getInt("id"), rs.getInt("counter"), rs.getInt("active"), rs.getString("name"), rs.getString("preview_text"), rs.getString("detail_text"), rs.getTimestamp("date_create"), rs.getString("picture"), new Category(rs.getInt("cat_id"), ""));
+				listItem.add(objSong);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			DBConnectionUtil.close(rs, st, conn);
+		}
+		return listItem;
+	}
 
 	public void increaseView(int sId) {
 		conn = DBConnectionUtil.getConnection();
