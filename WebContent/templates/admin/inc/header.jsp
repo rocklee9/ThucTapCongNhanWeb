@@ -35,7 +35,7 @@
 	 <!-- CKEDITOR-->
     <script src="<%=request.getContextPath() %>/library/ckeditor/ckeditor.js"></script>
 	
-<title>Nhạc hay việt</title>
+<title>My song</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
     <div class="dashboard-main-wrapper">    
          <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">Nhạc hay việt</a>
+                <a class="navbar-brand" href="index.html">My song</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
