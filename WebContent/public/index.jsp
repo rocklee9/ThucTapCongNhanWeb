@@ -181,9 +181,6 @@
 				<div class="slide-title"><h4><%=objSong.getSongName()%> </div>
 				<div class="date-city">
 					<h5><%=StringUtil.dateFormat(objSong.getDateCreate())%></h5>
-					<!-- <div class="buy-tickets">
-						<a href="single.html">READ MORE</a>
-					</div> -->
 				</div>
 			</li>
 			<%}}%>
