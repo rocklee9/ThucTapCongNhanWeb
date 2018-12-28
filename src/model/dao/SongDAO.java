@@ -354,7 +354,7 @@ public class SongDAO {
 				+ "picture, counter, cat_id, c.name AS catName, active "
 				+ "FROM songs AS s INNER JOIN categories AS c "
 				+ "ON cat_id = c.id "
-				+ "WHERE s.name LIKE ? AND active = 1";
+				+ "WHERE s.name LIKE ?";
 		try {
 			pst = conn.prepareStatement(sql);
 			pst.setString(1, "%" + textSearch + "%");
