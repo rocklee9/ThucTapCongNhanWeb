@@ -15,9 +15,8 @@
 </div>
 
 
-<script
-	src="<%=request.getContextPath()%>/templates/admin/assets/libs/js/dashboard-ecommerce.js"></script>
-<script src="<%=request.getContextPath()%>/templates/admin/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/templates/admin/assets/libs/js/dashboard-ecommerce.js"></script>
+<%-- <script src="<%=request.getContextPath()%>/templates/admin/assets/vendor/jquery/jquery-3.3.1.min.js"></script> --%>
 <script src="<%=request.getContextPath()%>/templates/admin/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 
 <!-- slimscroll js -->
@@ -25,9 +24,7 @@
 <!-- main js -->
 <script src="<%=request.getContextPath()%>/templates/admin/assets/libs/js/main-js.js"></script>
 <!-- chart chartist js -->
-
-<script
-	src="<%=request.getContextPath()%>/templates/admin/assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+<script src="<%=request.getContextPath()%>/templates/admin/assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
 <!-- sparkline js -->
 <script
 	src="<%=request.getContextPath()%>/templates/admin/assets/vendor/charts/sparkline/jquery.sparkline.js"></script>

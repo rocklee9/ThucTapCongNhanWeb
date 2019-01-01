@@ -39,7 +39,7 @@
 											class="btn btn-success btn-md">Thêm</a>
 									</div>
 									<div class="col-sm-6" style="text-align: right;">
-										<form method="post" action="">
+										<!-- <form method="post" action="">
 											<input type="submit" name="search" value="Tìm kiếm"
 												class="btn btn-warning btn-sm" style="float: right" /> <input
 												type="search" required="required"
@@ -47,7 +47,7 @@
 												placeholder="Nhập tên danh mục"
 												style="float: right; width: 300px;" />
 											<div style="clear: both"></div>
-										</form>
+										</form> -->
 										<br />
 									</div>
 								</div>
