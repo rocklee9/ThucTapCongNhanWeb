@@ -303,7 +303,6 @@
         $('.text-center img').click(function () {
         	var src = $(this).attr('src');
         	var id = $(this).attr('id');
-        	alert('Hello');
         	
             $.ajax({
 				url: '<%=request.getContextPath()%>/xu-ly-active-song',

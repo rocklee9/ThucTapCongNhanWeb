@@ -226,8 +226,7 @@
 	        	var id = $(this).attr('id');
 	        	
 	            $.ajax({
-					url: '<%=request.getContextPath()%>
-	/xu-ly-active-slide',
+					url: '<%=request.getContextPath()%>/xu-ly-active-slide',
 				type : 'POST',
 				cache : false,
 				data : {

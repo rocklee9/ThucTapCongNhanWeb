@@ -31,8 +31,12 @@
 <link rel="stylesheet"
 	href="<%=request.getContextPath() %>/templates/admin/assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
 	
-	
-	 <!-- CKEDITOR-->
+	<!-- JQUERY -->
+	<script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery-3.2.1.js"></script>
+	<!-- JValidate-->
+    <script src="<%=request.getContextPath() %>/library/js/jquery.validate.min.js"></script>
+	<%-- <script src="<%=request.getContextPath()%>/templates/admin/assets/vendor/jquery/jquery-3.3.1.min.js"></script> --%>
+	<!-- CKEDITOR-->
     <script src="<%=request.getContextPath() %>/library/ckeditor/ckeditor.js"></script>
 	
 <title>My song</title>

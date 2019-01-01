@@ -36,7 +36,7 @@
 							<div class="table-responsive">
 								<div class="row">
 									<div class="col-sm-6"></div>
-									<div class="col-sm-6" style="text-align: right;">
+									<!-- <div class="col-sm-6" style="text-align: right;">
 										<form method="post" action="">
 											<input type="submit" name="search" value="Tìm kiếm"
 												class="btn btn-warning btn-sm" style="float: right" /> <input
@@ -46,7 +46,7 @@
 											<div style="clear: both"></div>
 										</form>
 										<br />
-									</div>
+									</div> -->
 								</div>
 								<%
 									String msgText = MessageUtil.getMessage(request);

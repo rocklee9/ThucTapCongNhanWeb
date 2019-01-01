@@ -65,9 +65,9 @@
 							<li><a href="radio.html">All Songs</a></li>
 						</ul>
 					</li>
-					<li class="menu-list"><a href="contact.html"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
+					<li class="menu-list"><a href="<%=request.getContextPath() %>/lien-he"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
 						<ul class="sub-menu-list">
-							<li><a href="contact.html">Location</a> </li>
+							<li><a href="<%=request.getContextPath() %>/lien-he">Location</a> </li>
 						</ul>
 					</li>     
 				</ul>
