@@ -44,6 +44,7 @@
 <!-- CUSTOM SCRIPTS -->
 <script src="<%=request.getContextPath() %>/templates/admin/assets/js/custom.js"></script>
 <script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery.metisMenu.js"></script>
+
 </body>
 
 </html>
