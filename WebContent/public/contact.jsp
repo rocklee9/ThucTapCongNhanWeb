@@ -33,11 +33,11 @@
         <ol>
           <li>
             <label for="name">Họ tên</label>
-            <input id="name" value="<%if (name != null) out.print(name);%>" name="name" class="text" />
+            <input id="name" value="<%if (name != null) out.print(name);%>" name="name" class="text" required="required" />
           </li>
           <li>
             <label for="email">Email</label>
-            <input id="email" value="<%if (email != null) out.print(email);%>" name="email" class="text" />
+            <input id="email" value="<%if (email != null) out.print(email);%>" name="email" class="text" required="required" />
           </li>
           <li>
             <label for="website">Website</label>
@@ -45,9 +45,11 @@
           </li>
           <li>
             <label for="message">Nội dung</label>
-            <textarea id="message" name="message" rows="8" cols="50"><%
+            <textarea id="message" name="message" rows="8" cols="50" required="required">
+            <%
             	if (message != null) out.print(message);
-            %></textarea>
+            %>
+            </textarea>
           </li>
           <li>
             <input type="image" name="imageField" id="imageField" src="<%=request.getContextPath()%>/templates/public/images/submit.gif" class="send" />
@@ -58,7 +60,7 @@
     </div>
   </div>
   <div class="sidebar">
-  <%@ include file="/templates/public/inc/leftbar.jsp" %>
+  <%-- <%@ include file="/templates/public/inc/leftbar.jsp" %> --%>
   </div>
   <div class="clr"></div>
 </div>

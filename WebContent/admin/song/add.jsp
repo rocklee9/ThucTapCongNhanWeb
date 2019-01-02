@@ -63,13 +63,10 @@
 									<%
 										}
 									%>
-									<form role="form" action="" method="post"
-										enctype="multipart/form-data" id="form">
+									<form role="form" action="" method="post" enctype="multipart/form-data" class="form">
 										<div class="form-group">
-											<label for="name">Tên bài hát</label> <input type="text"
-												id="name" value="<%if (name != null)
-				out.print(name);%>"
-												name="name" class="form-control" />
+											<label for="name">Tên bài hát</label> 
+											<input type="text" id="name" value="<%if (name != null) out.print(name);%>" name="name" class="form-control" required="required" />
 										</div>
 										<div class="form-group">
 											<label for="category">Danh mục bài hát</label> <select
@@ -82,22 +79,21 @@
 												%>
 												<option value="<%=objCat.getCatId()%>"><%=objCat.getCatName()%></option>
 												<%
-													}
-														}
-													}
+													}}}
 												%>
 											</select>
 										</div>
 										<div class="form-group">
-											<label for="picture">Hình ảnh</label> <input type="file"
-												name="picture" onchange="readURL(this);" /> <br /> <img
-												width="200px" height="130px" id="img" alt="hinhanh" src="#">
+											<label for="picture">Hình ảnh</label> 
+											<input type="file" name="picture" onchange="readURL(this);" /> 
+											<br /> 
+											<img width="200px" height="130px" alt="" id="img" src="">
 											<br />
 										</div>
 										<div class="form-group">
 											<label for="preview">Mô tả</label>
 											<textarea id="preview" class="form-control" rows="3"
-												name="preview">
+												name="preview" required="required" >
 												<%
 													if (preview != null)
 														out.print(preview);
@@ -107,10 +103,9 @@
 										<div class="form-group">
 											<label for="detail">Chi tiết</label>
 											<textarea id="detail" class="form-control" id="detail"
-												rows="5" name="detail">
+												rows="5" name="detail" required="required">
 												<%
-													if (detail != null)
-														out.print(detail);
+													if (detail != null) out.print(detail);
 												%>
 											</textarea>
 										</div>
@@ -133,12 +128,10 @@
 	$().ready(
 			function() {
 				// validate form when it submited
-				$('#form').validate(
+				$('.form').validate(
 						{
 							errorPlacement : function(error, element) {
-								$(element).closest("form").find(
-										"label[for='" + element.attr("id")
-												+ "']").append(error);
+								$(element).closest("form").find("label[for='" + element.attr("id") + "']").append(error);
 							},
 							errorElement : "span",
 							rules : {

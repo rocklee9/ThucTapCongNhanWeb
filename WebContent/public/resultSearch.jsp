@@ -1,3 +1,4 @@
+<%@page import="util.StringUtil"%>
 <%@page import="model.bean.Song"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -42,7 +43,7 @@
 	%>
   </div>
   <div class="sidebar">
-      <%@ include file="/templates/public/inc/leftbar.jsp" %>
+     <%--  <%@ include file="/templates/public/inc/leftbar.jsp" %> --%>
   </div>
   <div class="clr"></div>
 </div>

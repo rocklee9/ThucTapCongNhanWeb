@@ -9,6 +9,7 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/x-icon" href="<%=request.getContextPath() %>/templates/admin/assets/img/favicon.ico">
 <!-- Bootstrap CSS -->
 <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Merriweather|Playfair+Display" rel="stylesheet">
 <link rel="stylesheet"
@@ -31,11 +32,15 @@
 <link rel="stylesheet"
 	href="<%=request.getContextPath() %>/templates/admin/assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
 	
-	
-	 <!-- CKEDITOR-->
+	<!-- JQUERY -->
+	<script src="<%=request.getContextPath() %>/templates/admin/assets/js/jquery-3.2.1.js"></script>
+	<!-- JValidate-->
+    <script src="<%=request.getContextPath() %>/library/js/jquery.validate.min.js"></script>
+	<%-- <script src="<%=request.getContextPath()%>/templates/admin/assets/vendor/jquery/jquery-3.3.1.min.js"></script> --%>
+	<!-- CKEDITOR-->
     <script src="<%=request.getContextPath() %>/library/ckeditor/ckeditor.js"></script>
 	
-<title>Nhạc hay việt</title>
+<title>My song</title>
 </head>
 
 <body>
@@ -43,7 +48,7 @@
     <div class="dashboard-main-wrapper">    
          <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.html">Nhạc hay việt</a>
+                <a class="navbar-brand" href="<%=request.getContextPath()%>/admin">My song</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

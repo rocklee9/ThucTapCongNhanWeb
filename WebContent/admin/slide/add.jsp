@@ -72,7 +72,7 @@
 										<div class="form-group">
 											<label for="picture">Hình ảnh</label> <input type="file"
 												name="picture" onchange="readURL(this);" /> <br /> <img
-												width="390px" height="130px" id="img" alt="hinhanh" src="#">
+												width="390px" height="130px" id="img" alt="" src="#">
 											<br />
 										</div>
 										<div class="form-group">

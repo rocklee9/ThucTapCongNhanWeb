@@ -1847,7 +1847,7 @@ Leftsidebar - dark
 }
 .active-menu {
     background-color: #242849;
-    color: #fff;
+    color: #fff !important;
     border-radius: 2px;
 }
 
@@ -2077,7 +2077,6 @@ Pageheader
     padding: 14px 30px 14px;
     color: #71748d;
     background-color: #fff;
-    width: 100%;
     /*position: absolute; bottom: 0;*/
 }
 
@@ -7002,3 +7001,9 @@ Media Query
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width:320px) {} 
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        margin-left:0px;
+    }
+} 
